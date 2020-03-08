@@ -4,7 +4,8 @@ const express = require('express');
 
 const app = express();
 
-const url = 'http://utedevas.es/Mantenimiento/Mantenimiento.php?p=';
+// const url = 'http://utedevas.es/Mantenimiento/Mantenimiento.php?p=';
+const url = '';
 
 
 app.get('/:id', async(req, res) => {
